@@ -24,6 +24,9 @@ config.json里配置deepseek的API key
 和你自己微信号加成群，群名在config.json里配置好
 微信不支持两人加群，可以请第三人帮忙，然后再把第三人退出
 ## 可以用docker打包好，然后启动，登录，打开网页扫码即启动
+端口8080，映射成你机器的端口
+/data   /root/data
+/config.json /app
 
 
 # 感谢
